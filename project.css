@@ -1,0 +1,280 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box-1 {
+  height: 100vh;
+  width: 100%;
+}
+
+#logo1 {
+  height: 40px;
+  width: 60px;
+
+  border: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Front page Area Start */
+
+.container-2 {
+  text-align: center;
+  color: white;
+  font-family: Courgette;
+
+  height: 100%;
+  width: 100%;
+  /* z-index: -1; */
+  /* opacity: 0.9; */
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#p1-img {
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#p2-img {
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#p3-img {
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading-firstpage {
+  padding-bottom: 50px;
+  font-size: 80px;
+  color: #f3f4f5;
+  font-weight: 900;
+}
+
+.heading-first-2line {
+  color: white;
+}
+
+.firstPage-btn-view {
+  border: none;
+  font-size: 18px;
+  color: white;
+  padding: 8px 25px;
+  background-color: #4070f4;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 70px;
+}
+
+.firstPage-btn-view:hover {
+  color: #0388ca;
+  background-color: white;
+}
+
+.heading-p1 {
+  padding-bottom: 60px;
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.paragraph-p1 {
+  font-size: 20px;
+  padding-bottom: 60px;
+  color: rgb(254, 252, 255);
+}
+
+#carouselExampleCaptions {
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+}
+.imageSizes {
+  height: 100%;
+  width: 100%;
+}
+
+
+ /* ....... Featured Area ........  */
+
+ .container-4 {
+    text-align: center;
+    height: 20vh;
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    font-family:cursive;
+  
+  }
+  
+  .line1 {
+    padding-top: 25px;
+  
+  }
+ 
+
+  /*featured Area*/
+.container-5 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 60vh;
+    width: 100%;
+  
+  }
+  
+  .featured-box-A {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    width: 45%;
+    flex-direction: column;
+    
+  }
+  
+  .featured-box1 {
+    overflow: hidden;
+    height: 55vh;
+    width: 85%;
+    
+  }
+  
+  .featured-box2 {
+    height: 20vh;
+    width: 40%;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  
+  .appoinment1 {
+    font-size: 15px;
+    cursor: pointer;
+  
+  }
+  
+  .appoinment1:hover {
+    color: #007bff;
+  }
+  
+  .featured-box-img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .featured-box-img:hover {
+    scale: 1.1;
+    transition: all 0.8s ease-in-out;
+  
+  }
+
+
+
+/* ......last page.......... */
+
+.last-page-area {
+  background-color: rgb(68, 59, 59);
+  background: url(front2.jpg) no-repeat center center/cover;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.last-page {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-around;
+}
+
+.last-aboutUs {
+  text-align: center;
+  height: 70%;
+  width: 25%;
+  color: white;
+}
+
+.last-contactUs {
+  color: white;
+  text-align: center;
+  height: 70%;
+  width: 25%;
+}
+.footer-area {
+  color: #be7c1e;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+.main-form-area {
+  height: 80%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+#Keep-in-touch {
+  color: #c49b63;
+}
+
+.fill {
+  height: 40px;
+  width: 270px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  border-style: none;
+  border-color: white;
+  text-align: center;
+}
+.submit-btn {
+  height: 40px;
+  width: 270px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.8s ease;
+}
+.submit-btn:hover {
+  color: white;
+  background-color: #c49b63;
+}
+.icon-area {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+
+.all-icon {
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.4s all ease;
+  font-size: 35px;
+}
+
+.all-icon:hover {
+  scale: 1.2;
+}
+
+#copy-right {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
